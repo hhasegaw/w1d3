@@ -4,7 +4,7 @@ function countLetters (str){
    // forEach 
     alpha.forEach(function(single){   
     var count = 0;
-    for (var i = 0; i <alpha.length; i++) {                                //for (let letter of str){
+    for (var i = 0; i <alpha.length; i++){     //for (let letter of str){
     if (single === alpha[i]){
         count += 1; 
         frequency [alpha[i]] = count;
